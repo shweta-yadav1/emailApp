@@ -1,0 +1,27 @@
+{
+  "name": "Group Chat App",
+  "version": "1.0.0",
+  "description": "Real Time chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shweta-yadav1/emailApp.git"
+  },
+  "author": "Shweta Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shweta-yadav1/emailApp/issues"
+  },
+  "homepage": "https://github.com/shweta-yadav1/emailApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0"
+  }
+}
